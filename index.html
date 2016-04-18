@@ -1,13 +1,94 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
-  <head>
-    <meta http-equiv="refresh" content="0; URL=/index.html/">
-    <meta charset="UTF-8">
-    <title>Brennced</title>
-  </head>
-  <body>
-    Redirecting...
-    <br>
-    If nothing is happening, please click <a href="/index.html/" target="_top">here</a>.
-  </body>
+	<head>
+		<title>Brennced</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width">
+		<style>
+			* {
+				font-family: sans-serif;
+			}
+			h1 {
+				margin: 0px;
+				position: absolute;
+				left: 0px;
+				top: 0px;
+				width: 100%;
+				background-color: #EDEDED;
+				border-bottom: 1px solid #929292;
+				box-shadow: 0px 2px 2px rgba(0,0,0,0.33);
+				padding: 8px 0px;
+				z-index: 100;
+			}
+			#hl {
+				margin: 0px 0px 0px 25px;
+			}
+			#spacetop {
+				border: 0px solid transparent;
+				margin-top: 70px;
+			}
+			a {
+				color: #BA2D29;
+				text-decoration: none;
+				-webkit-transition: all 0.2s ease-out;
+				-moz-transition: all 0.2s ease-out;
+				outline: none !important;
+			}
+			a:hover {
+				text-decoration: underline;
+			}
+			a.tooltip:after {
+				-webkit-transition: all 0.2s ease-out;
+				-moz-transition: all 0.2s ease-out;
+				content: "http://brennced.github.io" attr(href);
+				display: inline-block;
+				position: relative;
+				left: 15px;
+				top: -100px;
+				color: #FFFFFF;
+				text-decoration: none;
+				font-size: 70%;
+				vertical-align: middle;
+				background-color: #BA2D29;
+				opacity: 0;
+				overflow: hidden;
+				height: 15px;
+				z-index: 99;
+			}
+			a.tooltip:hover:after {
+				width: auto;
+				opacity: 1;
+				top: 0px;
+			}
+			#separate {
+				color: gray;
+				margin-left: 2px;
+				margin-right: 2px;
+			}
+		</style>
+	</head>
+	<body>
+		<h1><span id="hl">Brennced</span></h1>
+		<hr id="spacetop" />
+		<figure>
+			<a href="/CLI/" class="tooltip">Go to CapsLock Indicator</a>
+			<br />
+			<a href="/software/cc/" class="tooltip">Go to ControllerController</a>
+			<br />
+			<a href="/tools/" class="tooltip">Go to tools</a>
+			<br /><br />
+			<a href="/privacy-policy/" target="_blank">Brennced Privacy Policy</a>
+			<span id="separate">|</span>
+			<a href="https://help.github.com/articles/github-privacy-policy/" target="_blank">GitHub Privacy Policy</a>
+		</figure>
+		<hr />
+		<p>
+			<var>
+				Copyright (&copy;) 2015 Brennced Development (<a href="http://brennced.github.io">http://brennced.github.io</a>). All rights reserved.
+				<br />
+				<a href="https://twitter.com/brennced" class="twitter-follow-button" data-show-count="false" data-show-screen-name="false">Follow @brennced</a>
+				<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+			</var>
+		</p>
+	</body>
 </html>
