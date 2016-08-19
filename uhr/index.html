@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="de">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1">
+		<title>Uhr</title>
+		<style>
+			body { font: normal 10pt/1 sans-serif; max-width: 900px; margin: 8px auto; }
+			h1 { margin: 4px 0px 8px; border-bottom: 1px solid #dddddd; text-align: center; font: normal 18pt/1 sans-serif; }
+			a { color: #405efc; text-decoration: none; }
+			a:hover { color: #3047c1; text-decoration: underline; }
+			img { max-width: 100%; }
+			p { margin-top: 0px; }
+			footer { margin: 8px 0px 4px; border-top: 1px solid #dddddd; text-align: center; color: #737373; padding: 4px 0px 0px; }
+		</style>
+	</head>
+	<body>
+		<h1>Uhr</h1>
+		<article>
+			<section name="requirements">
+				<p><b>Systemvorraussetzungen:</b> Windows 7 oder neuer, Microsoft .NET Framework 4.5 oder neuer, OBS Studio.</p>
+			</section>
+			<section name="download">
+				<p><a href="app/uhr.exe">Lade das Programm herunter</a> und starte es.</p>
+			</section>
+		</article>
+		<article>
+			<section name="step0">
+				<img src="media/step0.png" alt="step0">
+				<br>
+				<img src="media/step1.png" alt="step1">
+				<p>F&uuml;ge eine neue Fensteraufnahme in OBS hinzu.</p>
+				<img src="media/step2.png" alt="step2">
+				<p>Gib ihr irgend einen Namen, z.B. <kbd>Uhrzeit</kbd>.</p>
+				<img src="media/step3.png" alt="step3">
+				<p>W&auml;hle als Fenster <kbd>uhr.exe</kbd>.<br><b>Empfohlen:</b> Entferne das H&auml;kchen bei <i>Mauszeiger aufnehmen</i>.</p>
+			</section>
+			<section name="step1">
+				<img src="media/step4.png" alt="step4">
+				<p>F&uuml;ge einen neuen Filter zur eben erstellten Quelle hinzu (rechte Maustaste auf die Quelle &gt; <i>Filter</i>).</p>
+				<img src="media/step5.png" alt="step5">
+				<p>Im Quellenfenster f&uuml;ge einen <i>Color Key</i>-Filter hinzu (klicke dazu auf das <b>+</b> unten links und w&auml;hle dann <i>Color Key</i>).</p>
+				<img src="media/step6.png" alt="step6">
+				<p>Gib dem Filter einen beliebigen Namen, z.B. <kbd>Hintergrund entfernen</kbd>.</p>
+				<img src="media/step7.png" alt="step7">
+				<p>W&auml;hle bei <i>Key-Farbe-Typ</i> <kbd>Benutzerdefinierte Farbe</kbd>.</p>
+				<img src="media/step8.gif" alt="step8">
+				<p>W&auml;hle nun, wie oben gezeigt, die Farbe aus.</p>
+				<img src="media/step9.png" alt="step9">
+				<p>Passe nun die Einstellungen unter <i>&Auml;hnlichkeit (1-1000)</i> und <i>Gl&auml;tte (1-1000)</i> an.</p>
+				<img src="media/stepA.png" alt="stepA">
+				<p>Fertig! Du kannst nun die Uhrzeit beliebig verschieben und in der Gr&ouml;&szlig;e ver&auml;ndern.</p>
+			</section>
+		</article>
+		<footer>
+			&copy; 2016 Brennced
+		</footer>
+	</body>
+</html>
